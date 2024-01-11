@@ -13,21 +13,36 @@ const Projects = () => {
           </h2>
 
           <div className="w-full mt-10 flex gap-7 flex-wrap justify-center">
-            <img
-              src="https://i.ytimg.com/vi/npxV5vktHnE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ8EtqZOwtNONczwwtBrPlyLmIjA"
-              alt="YouTube Thumbnail"
-              className="w-80 rounded-md"
-            />
-            <img
-              src="https://i.ytimg.com/vi/iWmJUUw6_fA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_kpBB-JqN69a4Dfpdbyb_ByY4Pw"
-              alt="YouTube Thumbnail"
-              className="w-80 rounded-md"
-            />
-            <img
-              src="https://i.ytimg.com/vi/BpSMZI3mNHA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkixsgkeFeVD-U64bNpEPI8Foq8w"
-              alt="YouTube Thumbnail"
-              className="w-80 rounded-md"
-            />
+            <a
+              href="https://youtu.be/npxV5vktHnE?si=dIDmiAk3Bvyj1o03"
+              target="_blank"
+            >
+              <img
+                src="https://i.ytimg.com/vi/npxV5vktHnE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQ8EtqZOwtNONczwwtBrPlyLmIjA"
+                alt="YouTube Thumbnail"
+                className="w-80 rounded-md"
+              />
+            </a>
+            <a
+              href="https://youtu.be/iWmJUUw6_fA?si=t5Yp_zTjNy_RLv9L"
+              target="_blank"
+            >
+              <img
+                src="https://i.ytimg.com/vi/iWmJUUw6_fA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_kpBB-JqN69a4Dfpdbyb_ByY4Pw"
+                alt="YouTube Thumbnail"
+                className="w-80 rounded-md"
+              />
+            </a>
+            <a
+              href="https://youtu.be/BpSMZI3mNHA?si=qaBDCId8hDKbWhrh"
+              target="_blank"
+            >
+              <img
+                src="https://i.ytimg.com/vi/BpSMZI3mNHA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkixsgkeFeVD-U64bNpEPI8Foq8w"
+                alt="YouTube Thumbnail"
+                className="w-80 rounded-md"
+              />
+            </a>
           </div>
         </div>
       </div>
