@@ -16,7 +16,7 @@ const About = () => {
         <img
           src={aboutPic}
           alt="Mahdi Arian"
-          className="w-full md:w-80 object-cover mt-10 rounded-md shadow-md"
+          className="w-80 md:w-80 object-cover mt-10 rounded-md shadow-md"
         />
       </div>
     </div>
