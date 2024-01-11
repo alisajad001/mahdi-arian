@@ -3,6 +3,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { BsBrightnessHighFill } from "react-icons/bs";
+import MobileNav from "./MobileNav";
 
 const Navbar = ({ setThemeDark, themeDark }) => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -44,24 +45,7 @@ const Navbar = ({ setThemeDark, themeDark }) => {
         </div>
 
         {/* Mobile Menu */}
-        {mobileNav ? (
-          <ul className="absolute top-0 right-0 flex flex-col items-center justify-center w-full h-full z-10 bg-white dark:bg-gray-900 text-2xl gap-6 sm:gap-12">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        ) : (
-          ""
-        )}
+        <MobileNav mobileNav={mobileNav} />
 
         {mobileNav ? (
           <FaXmark
