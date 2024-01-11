@@ -2,7 +2,10 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="w-full relative dark:bg-gray-900 dark:text-white p-3">
+    <div
+      id="projects"
+      className="w-full relative dark:bg-gray-900 dark:text-white p-3"
+    >
       <div className="max-w-6xl mt-20 mx-auto gap-10 flex flex-col md:flex-row h-full items-center md:text-left">
         <div className="mx-auto">
           <h2 className="font-bold text-3xl text-center md:text-5xl mt-10">

@@ -4,7 +4,10 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen relative dark:bg-gray-900 dark:text-white">
+    <div
+      id="home"
+      className="w-full h-screen relative dark:bg-gray-900 dark:text-white"
+    >
       <div className="max-w-5xl mx-auto flex flex-col h-full justify-center items-center">
         <p className="text-purple-600 font-normal mb-3">Hi there,</p>
         <h2 className="font-bold text-3xl sm:text-6xl text-gray-900 dark:text-gray-200">
