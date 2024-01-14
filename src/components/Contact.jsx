@@ -13,7 +13,7 @@ const Contact = () => {
 
         <div>
           <p>📩 Email: mahdiarian006@gmail.com</p>
-          <p>📞 Phone: 0794681185</p>
+          <p>📞 Phone: 0708496809</p>
         </div>
       </div>
     </div>

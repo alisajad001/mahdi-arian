@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-5xl mx-auto flex flex-col h-full justify-center items-center">
         <p className="text-purple-600 font-normal mb-3">Hi there,</p>
         <h2 className="font-bold text-3xl sm:text-6xl text-gray-900 dark:text-gray-200">
-          I am Mahdi <span className="text-purple-600">Arian</span>
+          I am Mahdi <span className="text-purple-600">Bayani</span>
         </h2>
         <p className="text-xl sm:text-2xl my-1 font-semibold text-gray-500 dark:text-gray-400">
           I am a Designer and Content Creator
