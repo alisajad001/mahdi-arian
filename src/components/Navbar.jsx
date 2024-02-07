@@ -11,7 +11,7 @@ const Navbar = ({ setThemeDark, themeDark }) => {
   return (
     <nav className="p-4 dark:bg-gray-900 dark:text-white">
       <div className="max-w-5xl mx-auto flex items-center justify-between">
-        <h1 className="font-bold text-md">Mahdi Bayani</h1>
+        <h1 className="font-bold text-md">Mahdi Arian</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden items-center gap-6 sm:flex ml-auto">
